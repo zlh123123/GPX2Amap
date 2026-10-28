@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GPX2Amap",
+  "version": "0.2.0",
+  "description": "Convert GPX tracks into Amap route links with ordered waypoints.",
+  "permissions": ["activeTab", "sidePanel", "tabs"],
+  "host_permissions": ["https://www.amap.com/*"],
+  "background": {"service_worker": "entrypoints/background.js"},
+  "action": {"default_title": "打开 GPX2Amap"},
+  "side_panel": {"default_path": "entrypoints/sidepanel.html"},
+  "content_scripts": [{
+    "matches": ["https://www.amap.com/*"],
+    "js": ["src/adapters/amap/content.js"],
+    "run_at": "document_idle"
+  }]
+}
