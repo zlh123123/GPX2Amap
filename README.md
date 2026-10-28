@@ -36,7 +36,7 @@ GPX 文件只在侧边栏页面中解析。插件不配置高德 REST Key，也�
 
 ## 发布
 
-Chrome 网上应用店和 Microsoft Edge 加载项都支持 Manifest V3。发布前需要分别注册开发者账号、上传包含 `manifest.json` 的 ZIP 包，并填写隐私说明、图标和截图。详细步骤见 [浏览器商店发布说明](docs/发布到浏览器商店.md)。
+Chrome 网上应用店和 Microsoft Edge 加载项都支持 Manifest V3。发布前需要分别注册开发者账号、上传包含 `manifest.json` 的 ZIP 包，并填写隐私说明、图标和截图。详细步骤见 [浏览器商店发布说明](docs/发布到浏览器商店.md)，隐私说明见 [隐私政策](docs/隐私政策.md)。
 
 ## 许可证
 
