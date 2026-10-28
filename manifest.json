@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "GPX2Amap",
   "version": "0.2.0",
-  "description": "Convert GPX tracks into Amap route links with ordered waypoints.",
+  "description": "将 GPX 轨迹转换为包含有序途经点的高德路线链接。",
   "permissions": ["activeTab", "sidePanel", "tabs"],
   "host_permissions": ["https://www.amap.com/*"],
   "background": {"service_worker": "entrypoints/background.js"},
